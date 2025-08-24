@@ -18,14 +18,17 @@ nav:
   fixed: false
 
 menu:
-  首页: / || home
-  关于作者: /about/ || user
-  时间轴: /archives/ || archive
-  标签: /tags/ ||tags
-  分类: /categories/ ||th
-  清单: /schedule/ ||calender
-  sitemap: /sitemap.xml/ ||sitemap
-  List||fas fa-list:
+  首页: / || fas fa-home
+  时间轴: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
+  清单||fa fa-heartbeat:
+    音乐: /music/ || fas fa-music
+    照片: /Gallery/ || fas fa-images
+    电影: /movies/ || fas fa-video
+    友链: /link/ || fas fa-link
+    关于: /about/ || fas fa-heart
+  列表||fas fa-list:
     Music: /music/ || fas fa-music
     Movie: /movies/ || fas fa-video
 
@@ -35,7 +38,7 @@ menu:
 
 code_blocks:
   # Code block theme: darker / pale night / light / ocean / false
-  theme: light
+  theme: pale night
   macStyle: true
   # Code block height limit (unit: px)
   height_limit: false
@@ -94,11 +97,12 @@ category_img:
 category_per_img:
 
 # The background image of footer
-footer_img: false
+footer_img: true
 
 # Website Background
 # Can set it to color or image url
-background: /img/universe.jpg
+#还没搞懂为什么没有反应
+background:
 
 cover:
   # Disable the cover or not
@@ -154,7 +158,7 @@ index_top_img_height:
 
 # The subtitle on homepage
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect
   effect: true
   # Customize typed.js
@@ -170,6 +174,7 @@ subtitle:
   source: false
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
+    - just be yourself
 
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
